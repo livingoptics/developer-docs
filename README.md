@@ -1,2 +1,3 @@
-# developer-docs
-Developer documentation - view at https://developer.livingoptics.com/
+# Developer documentation
+
+Source of the Living Optics developer docs at <https://developer.livingoptics.com/>.

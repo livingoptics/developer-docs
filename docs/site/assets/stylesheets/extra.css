@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Haffer-Bold";
+  src: url("../fonts/Haffer-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Haffer-Regular";
+  src: url("../fonts/Haffer-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* lo colours */
+  --lo-orange: #f0904c;
+  --lo-blue: #b1ddfc;
+  --lo-light-green: #affc8c;
+  --lo-dark-green: #5bc76a;
+  --lo-dark-purple: #3e0658;
+  --lo-purple: #8711bf;
+  --lo-light-purple: #cfbafa;
+  --lo-dark: #2b053d;
+  --lo-light: #ffffff;
+  --md-text-font: "Haffer-Regular";
+}
+
+h1 {
+  font-family: "Haffer-Bold";
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: "Haffer-Bold";
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-family: "Haffer-Bold";
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-fg-color: var(--lo-dark);
+  --md-default-fg-color--light: var(--lo-dark);
+  --md-default-bg-color: var(--lo-light);
+  --md-primary-fg-color: var(--lo-purple);
+  --md-accent-fg-color: var(--lo-light-purple);
+  --md-footer-bg-color: var(--lo-dark-purple);
+  --md-footer-bg-color--dark: var(--lo-dark-purple);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color--light: var(--lo-light);
+  --md-default-bg-color: var(--lo-dark);
+  --md-primary-fg-color: var(--lo-blue);
+  --md-accent-fg-color: var(--lo-orange);
+  --md-footer-bg-color: var(--lo-dark-purple);
+  --md-footer-bg-color--dark: var(--lo-dark-purple);
+}
+
+.md-header {
+  background-color: var(--lo-dark-purple);
+}
+
+.md-tabs {
+  background-color: var(--lo-dark-purple);
+}
+
+.md-header__title {
+  font-family: "Haffer-Bold";
+}
+
+.video-wrapper {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+.video-wrapper > iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.presentation-wrapper {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+.presentation-wrapper > iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/* Mkdocstrings styling */
+/* Indentation. */
+div.doc-contents:not(.first) {
+  padding-left: 25px;
+  border-left: .05rem solid var(--md-typeset-table-color);
+}
+
+/* Mark external links as such. */
+a.external::after,
+a.autorefs-external::after {
+  /* https://primer.style/octicons/arrow-up-right-24 */
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path></svg>');
+  content: ' ';
+
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+
+  height: 1em;
+  width: 1em;
+  background-color: var(--md-typeset-a-color);
+}
+
+a.external:hover::after,
+a.autorefs-external:hover::after {
+  background-color: var(--md-accent-fg-color);
+}
