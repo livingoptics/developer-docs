@@ -2,7 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.livingoptics.com/index.html</loc>
-         <lastmod>2024-03-08</lastmod>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.livingoptics.com/examples/index.html</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.livingoptics.com/getting-started/index.html</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.livingoptics.com/getting-started/dataformats.html</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.livingoptics.com/getting-started/software-and-data-samples.html</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.livingoptics.com/resources/index.html</loc>
+         <lastmod>2024-03-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.livingoptics.com/tutorials/index.html</loc>
+         <lastmod>2024-03-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
