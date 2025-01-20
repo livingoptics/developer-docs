@@ -2,37 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.livingoptics.com/index.html</loc>
-         <lastmod>2024-03-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-20</lastmod>
     </url>
     <url>
          <loc>https://docs.livingoptics.com/examples/index.html</loc>
-         <lastmod>2024-03-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-20</lastmod>
     </url>
     <url>
          <loc>https://docs.livingoptics.com/getting-started/index.html</loc>
-         <lastmod>2024-03-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.livingoptics.com/getting-started/cloud-orientation.html</loc>
+         <lastmod>2025-01-20</lastmod>
     </url>
     <url>
          <loc>https://docs.livingoptics.com/getting-started/dataformats.html</loc>
-         <lastmod>2024-03-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-20</lastmod>
     </url>
     <url>
          <loc>https://docs.livingoptics.com/getting-started/software-and-data-samples.html</loc>
-         <lastmod>2024-03-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-20</lastmod>
     </url>
     <url>
          <loc>https://docs.livingoptics.com/resources/index.html</loc>
-         <lastmod>2024-03-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-20</lastmod>
     </url>
     <url>
          <loc>https://docs.livingoptics.com/tutorials/index.html</loc>
-         <lastmod>2024-03-14</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.livingoptics.com/tutorials/gs-analysis.html</loc>
+         <lastmod>2025-01-20</lastmod>
     </url>
 </urlset>
