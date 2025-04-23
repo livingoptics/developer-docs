@@ -664,53 +664,13 @@
 </ul>
 <h2 id="sample-data">Sample Data<a class="headerlink" href="#sample-data" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Grab some sample data by pointing your browser <a href="https://cloud.livingoptics.com/shared-resources?file=samples/">here</a> and click the <code>Download</code> icon. Unzip to a local directory on your workstation.</li>
+<li>Grab some sample data by pointing your browser <a href="https://cloud.livingoptics.com/shared-resources?file=samples_v2/">here</a> and click the <code>Download</code> icon. Unzip to a local directory on your workstation.</li>
 </ul>
 <h2 id="next-steps">Next steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Explore the sample data files with the <code>data</code> tool included as part of the Living Optics SDK by:<ul>
-<li>Opening a terminal.</li>
-<li>Activating your virtual environment (created during the SDK install process).</li>
-<li>Typing <code>Data</code> to start the GUI tool.</li>
-</ul>
-</li>
 <li>Checkout the <code>analysis</code> tool using a <code>.lo</code> dataset by following our <a href="../tutorials/gs-analysis.html">tutorial</a>.</li>
 <li>Go even deeper with specific python code examples for computer vision tasks at our <a href="https://github.com/livingoptics/python-examples">github page</a>.</li>
 </ul>
-<!--
-*FIXME - STUFF BELOW NEEDS TO BE REWORKED TO SHOW EXPLORATION AND ANALYSIS OF LO FORMAT DATA....*
-
-## Data explorer / replay / analysis
-
-## FIXME Analyze sample vegetation data
-
-Next we will download some sample data and run an analysis script that will map the factory calibration onto the `.loraw` sample data and then highlight any parts of the data that contain the spectral information related to living vegetation.
-
-- Log into your Living Optics cloud portal.
-- Go to Shared Resources/samples to find the `NDVI.zip` and click the 'Download' icon.
-- Once downloaded, unzip the folder into a directory of your choice, using the same terminal as earlier.
-
-<div class="highlight"><pre><span></span><code>unzip<span class="w"> </span>NDVI.zip<span class="w"> </span><span class="o">{</span>path-to-directory-of-choice<span class="o">}</span>
-</code></pre></div>
-
-- Inside the unzipped `ndvi` you will find a single `NDVI-demo.loraw` file and a factory calibration file `demo-calibration-ndvi`.
-- Go into the `ndvi` directory and start the analysis tool via script:
-
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>ndvi<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>analysis<span class="w"> </span>--analysis<span class="w"> </span>lo.sdk.tools.analysis.apps.ndvi.NDVIAnalysis<span class="w"> </span>--file<span class="w"> </span>NDVI-demo.loraw<span class="w"> </span>--calibration-path<span class="w"> </span>demo-calibration-ndvi
-</code></pre></div>
-
-You are now running a pre-captured data set from a Living Optics Camera, of a scene with a variety of objects as well as live plants. Any parts of the scene that match the spectral index threshold for living vegetation are highlighted in yellow.
-
-- Press the `Decode Spectra` button underneath the `viewer` to start the `spectrum viewer`.
-This step applies the mapping of the sparse sampling points onto the RGB image.
-- Press the `Pick view` button underneath the `viewer` to switch from the RGB scene view to the sparsely sampled scene view.
-- Press the `Auto Level` button to maximize the dynamic range of the `viewer`.
-- Adjust the opacity scale to make it easier to see the highlighted parts of the scene.
-
-You have now completed the tutorial.
-
-For more exploration of our data, try downloading other sample data from the cloud portal and opening it in a terminal with the `analysis` command and the `--file` and `--calibration-path` arguments to specify the data and calibration files.
--->
 
 
 
@@ -731,7 +691,7 @@ For more exploration of our data, try downloading other sample data from the clo
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 18, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 23, 2025</span>
   </span>
 
     
